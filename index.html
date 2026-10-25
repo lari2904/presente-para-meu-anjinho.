@@ -7,7 +7,6 @@
 </head>
 <body>
 <style>
-<style>
 
   body {
     margin: 0;
@@ -484,10 +483,11 @@
   font-size: 22px;
   margin-top: -14px;
 }
-h1,
-h2,
-p {
-  color: #dcecff;
+.frase-comemoracao,
+.frase-principe,
+.frase-musical,
+.nome-musica {
+  color: #dcecff !important;
 }
 </style>
 
@@ -496,14 +496,14 @@ p {
 
   <h1>Para o meu anjinho 💗</h1>
 
-  <p>
-    Feliz 2 anos e 6 meses de nós!
-  </p>
+  <p class="frase-comemoracao">
+  Feliz 2 anos e 6 meses de nós!
+</p>
 
-  <p>
-    Meu príncipe, preparei algo especial
-    para celebrar a nossa história.
-  </p>
+<p class="frase-principe">
+  Meu príncipe, preparei algo especial
+  para celebrar a nossa história.
+</p>
 
   <button id="botaoPresente">
     Abrir meu presente 💌
@@ -732,11 +732,13 @@ p {
 
 <section class="cantinho-musical">
   <h2>Nossa música 🎶💙</h2>
-  <p>Porque algumas músicas guardam sentimentos que nem sempre cabem em palavras.</p>
+  <p class="frase-musical">
+    Porque algumas músicas guardam sentimentos que nem sempre cabem em palavras.
+  </p>
 
   <div class="cartao-musical">
     <div class="nota-musical">♫</div>
-    <h3>Sutilmente</h3>
+    <h3 class="nome-musica">Sutilmente</h3>
     <p class="artista-musical">Skank</p>
 
     <iframe
